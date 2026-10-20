@@ -4,23 +4,32 @@
 
 This project analyses retail data for ShopSmart Retail Ltd. using Microsoft Excel. The goal is to examine sales performance, customer behaviour, product performance, returns, and inventory to support business decision-making.
 
-## Tools Used
+## 🛠️ Skills & Tools
 
-- Microsoft Excel
-- Excel formulas and lookup functions
-- PivotTables and PivotCharts
-- Excel dashboard and data visualisation
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-0969DA?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-## Project Files
+---
 
-1. ShopSmart_Analysis.xlsx — Contains the retail analysis workbook, including calculations, PivotTables, charts, and the dashboard.
+---
 
-2. Executive_Dashboard.pdf — Presents the executive dashboard and key business performance indicators.
+## 📂 My Projects
 
-3. Business_Report.pdf — Documents data understanding, data cleaning, business questions and findings, and business recommendations.
+### 🔷 ShopSmart Retail Analytics
 
-4. README.md — Provides an overview of the project and its submitted files.
+A retail analytics project completed using Microsoft Excel, covering data analysis, dashboard creation, and business recommendations.
 
+🛠️ Tools: Microsoft Excel | PivotTables | Charts | Dashboard Design
+
+📁 Project Files
+
+- 📗 [ShopSmart_Analysis.xlsx](./ShopSmart-Retail-Analytics/Shop%20Smart%20Analysis%20in%20Excel%20from%20Datas.xlsx) — Retail analytics workbook with calculations, PivotTables, charts, and dashboard.
+- 📊 [Executive Dashboard.pdf](./ShopSmart-Retail-Analytics/Executive%20Dashboard.pdf) — Executive dashboard showing key business performance indicators.
+- 📄 [Business Report.pdf](./ShopSmart-Retail-Analytics/Business%20Report.pdf) — Project overview, data cleaning, business questions, findings, and recommendations.
+- 📘 [README.md](./ShopSmart-Retail-Analytics/README.md) — Overview of the project and submitted files.
+
+---
 ## Key Areas of Analysis
 
 - Product and category revenue
