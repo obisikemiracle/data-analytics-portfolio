@@ -19,6 +19,7 @@ I am an aspiring Data Analyst developing my skills through practical projects an
 ---
 
 ## My Projects
+![Project](https://img.shields.io/badge/Featured_Project-ShopSmart_Retail_Analytics-0969DA?style=for-the-badge)
 
 1. ShopSmart Retail Analytics — Week 1
 
