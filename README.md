@@ -12,6 +12,11 @@ I am an aspiring Data Analyst developing my skills through practical projects an
 - Data Cleaning and Preparation
 - Data Analysis and Visualization
 - Business Intelligence and Reporting
+- ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-0969DA?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
 
 ## My Projects
 
