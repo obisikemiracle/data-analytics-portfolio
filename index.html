@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Analytics Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f8ff;
+      color: #24364b;
+      line-height: 1.7;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      border-bottom: 1px solid #dce7f5;
+    }
+
+    nav h2 {
+      color: #155eef;
+      font-size: 21px;
+    }
+
+    nav a {
+      color: #344b68;
+      text-decoration: none;
+      margin-left: 18px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #102a56, #1769e0);
+      color: white;
+      padding: 85px 8%;
+    }
+
+    .hero .tag {
+      color: #bfdbfe;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 58px);
+      line-height: 1.15;
+      margin: 18px 0;
+      max-width: 700px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #e3edff;
+      font-size: 17px;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: white;
+      color: #155eef;
+      padding: 12px 22px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 8%;
+    }
+
+    .section-title {
+      color: #123567;
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      max-width: 750px;
+      margin-bottom: 28px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .skill {
+      background: #e0ebff;
+      color: #1749a2;
+      border: 1px solid #c5d8ff;
+      padding: 9px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .projects {
+      background: #eaf1fc;
+    }
+
+    .project-card {
+      background: white;
+      border: 1px solid #d7e3f4;
+      border-radius: 14px;
+      padding: 28px;
+      margin-top: 25px;
+      max-width: 850px;
+      box-shadow: 0 8px 25px rgba(25, 64, 120, 0.07);
+    }
+
+    .project-card h3 {
+      color: #155eef;
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      margin-bottom: 16px;
+    }
+
+    .project-label {
+      color: #58708d;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .file-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .file-links a {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 7px;
+      background: #155eef;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .file-links a:hover,
+    .button:hover {
+      opacity: 0.85;
+    }
+
+    .about {
+      background: white;
+    }
+
+    footer {
+      background: #102a56;
+      color: #d9e7ff;
+      padding: 25px 8%;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 18px 5%;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 12px;
+      }
+
+      .hero {
+        padding: 65px 6%;
+      }
+
+      section {
+        padding: 45px 6%;
+      }
+
+      .project-card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>My Data Portfolio</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+    </div>
+  </nav>
+  <header class="hero" id="home">
+    <div class="tag">ASPIRING DATA ANALYST</div>
+    <h1>Turning Data Into Meaningful Insights.</h1>
+    <p>
+      Welcome to my portfolio. I use data analysis, visualization,
+      and business reporting to explore data and communicate useful
+      findings that support better decisions.
+    </p>
+    <a class="button" href="#projects">Explore My Projects ↓</a>
+  </header>
+
+  <section id="skills">
+    <h2 class="section-title">Skills &amp; Tools</h2>
+    <p class="intro">
+      Tools and skills I am developing and applying through practical
+      data analytics projects.
+    </p>
+    <div class="skills">
+      <span class="skill">Microsoft Excel</span>
+      <span class="skill">Power BI</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Data Cleaning &amp; Preparation</span>
+      <span class="skill">Data Analysis &amp; Visualization</span>
+      <span class="skill">Business Intelligence &amp; Reporting</span>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title">Featured Project</h2>
+    <p class="intro">
+      Explore my project work, analysis, visualizations, and business findings.
+    </p>
+
+    <article class="project-card">
+      <div class="project-label">Excel · Retail Analytics</div>
+      <h3>ShopSmart Retail Analytics</h3>
+      <p>
+        A retail analytics project completed using Microsoft Excel,
+        featuring calculations, PivotTables, charts, an executive
+        dashboard, and a business report.
+      </p>
+
+      <div class="skills">
+        <span class="skill">Excel</span>
+        <span class="skill">PivotTables</span>
+        <span class="skill">Charts</span>
+        <span class="skill">Dashboard Design</span>
+      </div>
+
+      <div class="file-links">
+        <a href="ShopSmart-Retail-Analytics/ShopSmart_Analysis.xlsx">Excel Workbook ↗</a>
+        <a href="ShopSmart-Retail-Analytics/Executive%20Dashboard.pdf">Executive Dashboard ↗</a>
+        <a href="ShopSmart-Retail-Analytics/Business%20Report.pdf">Business Report ↗</a>
+        <a href="ShopSmart-Retail-Analytics/README.md">Project Details ↗</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About My Journey</h2>
+    <p class="intro">
+      I am building my data analytics skills through hands-on projects
+      and continuous learning. My goal is to turn data into clear,
+      useful insights and communicate findings effectively.
+    </p>
+  </section>
+
+  <footer>
+    <p>Data Analytics Portfolio</p>
+    <p>Built with HTML and CSS · Hosted with GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
