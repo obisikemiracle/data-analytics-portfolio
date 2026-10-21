@@ -37,7 +37,7 @@ Project Presentation
 
 The PowerPoint presentation summarizes the project, key findings, and business recommendations.
 
-[📊 View the PowerPoint Presentation] (./Deluxe_Store_Presentation.pptx)
+[📊 View the PowerPoint Presentation](./Deluxe_Store_Presentation.pptx)
 
 ## Conclusion
 
